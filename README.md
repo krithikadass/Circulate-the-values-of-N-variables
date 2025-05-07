@@ -6,16 +6,29 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
+Define a function named circulate that takes no arguments.
 ### Step 2: 
+Inside the function, use input to get a string representation of a list from the user and evaluate it to get the actual list.
 ### Step 3: 
 Get the value from the user for the number of rotation
 ### Step 4: 
 Using the slicing concept rotate the list
-
 ### Step 5: 
-### Step 6: 
-## Program:
+Print the circulated list l with the message "After circulating the values are:"
 
+## Program:
+```
+#Program Deeveloped By: M.Krithika Lakshmi
+#Register Number: 212224230134
+
+def circulate():
+    l=eval(input())
+    n=int(input())
+    l=l[n:] + l[:n]
+    print("After circulating the values are:",l)
+```
 ## Output:
+![Screenshot 2025-05-07 135424](https://github.com/user-attachments/assets/4e65eeb6-8854-416b-9976-91b86f8dc1f5)
 
 ## Result:
+Hence,the values are circulated successfully.
