@@ -18,17 +18,19 @@ Print the circulated list l with the message "After circulating the values are:"
 
 ## Program:
 ```
-#Program Deeveloped By: M.Krithika Lakshmi
-#Register Number: 212224230134
+# Developed by: M.Krithika Lakshmi
+# Register no: 212224230134
 
 def circulate():
     l=eval(input())
     n=int(input())
     l=l[n:] + l[:n]
     print("After circulating the values are:",l)
+
 ```
 ## Output:
-![Screenshot 2025-05-07 135424](https://github.com/user-attachments/assets/4e65eeb6-8854-416b-9976-91b86f8dc1f5)
+
+![Screenshot 2025-05-07 151906](https://github.com/user-attachments/assets/9cacf188-f2a5-428f-a15e-cded668693d3)
 
 ## Result:
 Hence,the values are circulated successfully.
